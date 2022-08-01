@@ -1,0 +1,4 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<jenkins.model.JenkinsLocationConfiguration>
+  <jenkinsUrl>http://a6662354f9ba64de5a5bebd17b828c91-1042330494.ap-south-1.elb.amazonaws.com:8080/</jenkinsUrl>
+</jenkins.model.JenkinsLocationConfiguration>

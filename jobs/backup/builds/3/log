@@ -1,0 +1,25 @@
+Started by user [8mha:////4DQFrxSfDlsc0AMNZpuSN+0X03cGwZ6761Sg3liq6yoIAAAAkh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBnb90uLUIv0UAGZnkYG8AAAA[0md
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/backup
+[backup] $ /bin/sh -xe /tmp/jenkins7202906457072049769.sh
++ cd /var/jenkins_home
++ BACKUP_TIME=
++ git config --global user.name dattatrey29
++ git init
+Reinitialized existing Git repository in /var/jenkins_home/.git/
++ git add .
++ git commit -m backup-
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'root@jenkins-b4d464798-v4wv9.(none)')
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

@@ -1,0 +1,11 @@
+Started by user [8mha:////4DQFrxSfDlsc0AMNZpuSN+0X03cGwZ6761Sg3liq6yoIAAAAkh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBnb90uLUIv0UAGZnkYG8AAAA[0md
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/backup
+[backup] $ /bin/sh -xe /tmp/jenkins850249713238665979.sh
++ cd /var/jenkins_home
++ BACKUP_TIME=
++ git add .
+fatal: not a git repository (or any parent up to mount point /var)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
