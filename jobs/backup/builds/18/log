@@ -9,3 +9,15 @@ Building in workspace /var/jenkins_home/workspace/backup
 + git init
 Reinitialized existing Git repository in /var/jenkins_home/.git/
 + git add .
++ git commit -m backup-
+[master a3b4491] backup-
+ 9 files changed, 70 insertions(+), 12 deletions(-)
+ create mode 100644 jobs/backup/builds/17/build.xml
+ create mode 100644 jobs/backup/builds/18/changelog.xml
+ create mode 100644 jobs/backup/builds/18/log
++ git show-ref
+a3b449104d2e5b0e3e69956e9291260ca493f88a refs/heads/master
++ git push -u origin master
+fatal: could not read Username for 'https://github.com': No such device or address
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

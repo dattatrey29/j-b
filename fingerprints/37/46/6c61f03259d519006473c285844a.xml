@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-08-01 03:04:16.75 UTC</timestamp>
+  <md5sum>37466c61f03259d519006473c285844a</md5sum>
+  <fileName>Credential id=git name=dattatrey29/****** (git)</fileName>
+  <usages>
+    <entry>
+      <string>backup</string>
+      <ranges>19</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

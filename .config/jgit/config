@@ -1,0 +1,3 @@
+[filesystem "IcedTea|1.8.0_212|127.0.0.1:/"]
+	timestampResolution = 1002 milliseconds
+	minRacyThreshold = 0 nanoseconds

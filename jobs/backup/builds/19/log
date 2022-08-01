@@ -1,0 +1,30 @@
+Started by user [8mha:////4DQFrxSfDlsc0AMNZpuSN+0X03cGwZ6761Sg3liq6yoIAAAAkh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBnb90uLUIv0UAGZnkYG8AAAA[0md
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/backup
+The recommended git tool is: NONE
+using credential git
+Cloning the remote Git repository
+Cloning repository https://github.com/dattatrey29/jenkins_backup.git
+ > git init /var/jenkins_home/workspace/backup # timeout=10
+Fetching upstream changes from https://github.com/dattatrey29/jenkins_backup.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.20.4'
+using GIT_ASKPASS to set credentials git
+ > git fetch --tags --force --progress -- https://github.com/dattatrey29/jenkins_backup.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/dattatrey29/jenkins_backup.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision dc5124a5895f07a2ae993e66f5dc7351f1898bd9 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f dc5124a5895f07a2ae993e66f5dc7351f1898bd9 # timeout=10
+Commit message: "Create test"
+First time build. Skipping changelog.
+[backup] $ /bin/sh -xe /tmp/jenkins3760405611204140626.sh
++ cd /var/jenkins_home
++ BACKUP_TIME=
++ git config --global user.email dattatrey.ds@gmail.com
++ git config --global user.name dattatrey29
++ git init
+Reinitialized existing Git repository in /var/jenkins_home/.git/
++ git add .
