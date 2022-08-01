@@ -9,3 +9,14 @@ Building in workspace /var/jenkins_home/workspace/backup
 + git init
 Reinitialized existing Git repository in /var/jenkins_home/.git/
 + git add .
++ git commit -m backup-
+[master 778062a] backup-
+ 9 files changed, 73 insertions(+), 12 deletions(-)
+ create mode 100644 jobs/backup/builds/28/build.xml
+ create mode 100644 jobs/backup/builds/29/changelog.xml
+ create mode 100644 jobs/backup/builds/29/log
++ git remote set-url origin https://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@github.com/dattatrey29/j-b.git
++ git push -u origin master
+fatal: could not read Password for 'https://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@github.com': No such device or address
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
