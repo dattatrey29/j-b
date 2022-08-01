@@ -9,3 +9,21 @@ Building in workspace /var/jenkins_home/workspace/backup
 + git init
 Reinitialized existing Git repository in /var/jenkins_home/.git/
 + git add .
++ git commit -m backup-
+[master d3e51da] backup-
+ 7 files changed, 75 insertions(+), 10 deletions(-)
+ create mode 100644 jobs/backup/builds/24/build.xml
+ create mode 100644 jobs/backup/builds/25/changelog.xml
+ create mode 100644 jobs/backup/builds/25/log
++ git remote set-url origin https://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@github.com/dattatrey29/jenkins_backup.git
++ git push -u origin master
+To https://github.com/dattatrey29/jenkins_backup.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://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@github.com/dattatrey29/jenkins_backup.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
