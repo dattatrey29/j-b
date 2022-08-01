@@ -14,7 +14,7 @@
   <builders>
     <hudson.tasks.Shell>
       <command>cd $JENKINS_HOME
-BACKUP_TIME=${date}
+BACKUP_TIME=${TAG_DATE}
 git config --global user.email &quot;dattatrey.ds@gmail.com&quot;
 git config --global user.name &quot;dattatrey29&quot;
 git init

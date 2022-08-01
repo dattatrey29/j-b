@@ -9,3 +9,17 @@ Building in workspace /var/jenkins_home/workspace/backup
 + git init
 Reinitialized existing Git repository in /var/jenkins_home/.git/
 + git add .
++ git commit -m backup-
+[master 4d683aa] backup-
+ 8 files changed, 69 insertions(+), 11 deletions(-)
+ create mode 100644 jobs/backup/builds/27/build.xml
+ create mode 100644 jobs/backup/builds/28/changelog.xml
+ create mode 100644 jobs/backup/builds/28/log
++ git remote set-url origin https://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@github.com/dattatrey29/j-b.git
++ git push -u origin master
+To https://github.com/dattatrey29/j-b.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
++ echo 'backup pushed successfully'
+backup pushed successfully
+Finished: SUCCESS
