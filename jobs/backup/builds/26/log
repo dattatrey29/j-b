@@ -9,3 +9,15 @@ Building in workspace /var/jenkins_home/workspace/backup
 + git init
 Reinitialized existing Git repository in /var/jenkins_home/.git/
 + git add .
++ git commit -m backup-
+[master 48fba11] backup-
+ 9 files changed, 78 insertions(+), 13 deletions(-)
+ create mode 100644 jobs/backup/builds/25/build.xml
+ create mode 100644 jobs/backup/builds/26/changelog.xml
+ create mode 100644 jobs/backup/builds/26/log
++ git remote set-url origin https://github.com/dattatrey29/j-b.git
++ git push -u origin main
+error: src refspec main does not match any.
+error: failed to push some refs to 'https://github.com/dattatrey29/j-b.git'
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
