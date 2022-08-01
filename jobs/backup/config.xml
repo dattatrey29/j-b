@@ -21,7 +21,7 @@ git init
 git add .
 git commit -m &quot;backup-$BACKUP_TIME&quot;
 git show-ref
-git push -u origin main
+git push -u origin master
 echo &quot;backup pushed successfully&quot;</command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
