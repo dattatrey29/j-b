@@ -28,3 +28,32 @@ First time build. Skipping changelog.
 + git init
 Reinitialized existing Git repository in /var/jenkins_home/.git/
 + git add .
+warning: adding embedded git repository: workspace/backup
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint: 
+hint: 	git submodule add <url> workspace/backup
+hint: 
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint: 
+hint: 	git rm --cached workspace/backup
+hint: 
+hint: See "git help submodule" for more information.
++ git commit -m backup-
+[master cfc301e] backup-
+ 12 files changed, 122 insertions(+), 12 deletions(-)
+ create mode 100644 .config/jgit/config
+ create mode 100644 fingerprints/37/46/6c61f03259d519006473c285844a.xml
+ create mode 100644 jobs/backup/builds/18/build.xml
+ create mode 100644 jobs/backup/builds/19/changelog.xml
+ create mode 100644 jobs/backup/builds/19/log
+ create mode 160000 workspace/backup
++ git show-ref
+cfc301ec63c30c984e87815b11ed0253ba83ab40 refs/heads/master
++ git push -u origin master
+fatal: could not read Username for 'https://github.com': No such device or address
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
