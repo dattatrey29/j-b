@@ -9,3 +9,18 @@ Building in workspace /var/jenkins_home/workspace/backup
 + git init
 Reinitialized existing Git repository in /var/jenkins_home/.git/
 + git add .
++ git commit -m backup-
+[master aec64ba] backup-
+ 9 files changed, 69 insertions(+), 11 deletions(-)
+ create mode 100644 jobs/backup/builds/30/build.xml
+ create mode 100644 jobs/backup/builds/31/changelog.xml
+ create mode 100644 jobs/backup/builds/31/log
++ git remote set-url origin git@github.com:dattatrey29/j-b.git
++ git push -u origin master
+Host key verification failed.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
