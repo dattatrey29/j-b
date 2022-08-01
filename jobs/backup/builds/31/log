@@ -1,7 +1,7 @@
 Started by user [8mha:////4DQFrxSfDlsc0AMNZpuSN+0X03cGwZ6761Sg3liq6yoIAAAAkh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBnb90uLUIv0UAGZnkYG8AAAA[0md
 Running as SYSTEM
 Building in workspace /var/jenkins_home/workspace/backup
-[backup] $ /bin/sh -xe /tmp/jenkins5232508193647942711.sh
+[backup] $ /bin/sh -xe /tmp/jenkins7632622594138627588.sh
 + cd /var/jenkins_home
 + BACKUP_TIME=
 + git config --global user.email dattatrey.ds@gmail.com
@@ -9,13 +9,3 @@ Building in workspace /var/jenkins_home/workspace/backup
 + git init
 Reinitialized existing Git repository in /var/jenkins_home/.git/
 + git add .
-+ git commit -m backup-
-[master ac3e91d] backup-
- 8 files changed, 68 insertions(+), 11 deletions(-)
- create mode 100644 jobs/backup/builds/29/build.xml
- create mode 100644 jobs/backup/builds/30/changelog.xml
- create mode 100644 jobs/backup/builds/30/log
-+ git push -u origin master
-fatal: could not read Password for 'https://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@github.com': No such device or address
-Build step 'Execute shell' marked build as failure
-Finished: FAILURE
