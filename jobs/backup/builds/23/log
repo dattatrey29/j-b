@@ -1,7 +1,7 @@
 Started by user [8mha:////4DQFrxSfDlsc0AMNZpuSN+0X03cGwZ6761Sg3liq6yoIAAAAkh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBnb90uLUIv0UAGZnkYG8AAAA[0md
 Running as SYSTEM
 Building in workspace /var/jenkins_home/workspace/backup
-[backup] $ /bin/sh -xe /tmp/jenkins4229926834715618964.sh
+[backup] $ /bin/sh -xe /tmp/jenkins5506129730393731187.sh
 + cd /var/jenkins_home
 + BACKUP_TIME=
 + git config --global user.email dattatrey.ds@gmail.com
@@ -9,14 +9,3 @@ Building in workspace /var/jenkins_home/workspace/backup
 + git init
 Reinitialized existing Git repository in /var/jenkins_home/.git/
 + git add .
-+ git commit -m backup-
-[master 4943683] backup-
- 9 files changed, 69 insertions(+), 12 deletions(-)
- create mode 100644 jobs/backup/builds/21/build.xml
- create mode 100644 jobs/backup/builds/22/changelog.xml
- create mode 100644 jobs/backup/builds/22/log
- rewrite logs/health-checker.log (60%)
-+ git push -u origin master
-fatal: could not read Username for 'https://github.com': No such device or address
-Build step 'Execute shell' marked build as failure
-Finished: FAILURE
