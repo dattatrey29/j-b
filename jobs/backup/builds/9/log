@@ -9,3 +9,17 @@ Building in workspace /var/jenkins_home/workspace/backup
 + git init
 Reinitialized existing Git repository in /var/jenkins_home/.git/
 + git add .
++ git commit -m backup-
+[master 9fe70a7] backup-
+ 11 files changed, 119 insertions(+), 11 deletions(-)
+ create mode 100644 jobs/backup/builds/7/build.xml
+ create mode 100644 jobs/backup/builds/8/build.xml
+ create mode 100644 jobs/backup/builds/8/changelog.xml
+ create mode 100644 jobs/backup/builds/8/log
+ create mode 100644 jobs/backup/builds/9/changelog.xml
+ create mode 100644 jobs/backup/builds/9/log
++ git push -u origin main
+error: src refspec main does not match any.
+error: failed to push some refs to 'https://github.com/dattatrey29/jenkins_backup.git'
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
